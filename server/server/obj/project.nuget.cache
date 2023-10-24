@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OO+rNtA/+ANK6bPXUzeO0zY9Wykd/GNnLXHYTN3VQRydNfsRj1+cUUO+v/7oMmp3xl0hVmvMOg0WF96H5XCBXw==",
+  "dgSpecHash": "ogf7fJ1gEF4G3vifPfO/8r61OdqyfAJ2EoyqDQ2sLO8QUIcsxegEdabRL1t8dcE+zUsAuTYLranlxuf5qDtz3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\hgarn\\Desktop\\Twit-This-NET-Edition\\server\\server\\server.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hgarn\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
+    "C:\\Users\\hgarn\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
     "C:\\Users\\hgarn\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\hgarn\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\hgarn\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",

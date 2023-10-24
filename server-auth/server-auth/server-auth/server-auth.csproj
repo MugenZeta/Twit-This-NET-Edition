@@ -10,11 +10,11 @@
 
     <ItemGroup>
         <PackageReference Include="functions-csharp" Version="1.3.1" />
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.10"/>
-        <PackageReference Include="postgrest-csharp" Version="3.2.5" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
+        <PackageReference Include="postgrest-csharp" Version="3.2.7" />
         <PackageReference Include="realtime-csharp" Version="6.0.4" />
         <PackageReference Include="supabase-core" Version="0.0.3" />
-        <PackageReference Include="supabase-csharp" Version="0.13.1" />
+        <PackageReference Include="supabase-csharp" Version="0.13.3" />
         <PackageReference Include="supabase-storage-csharp" Version="1.4.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
     </ItemGroup>

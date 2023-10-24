@@ -279,7 +279,7 @@
           "lib/netstandard2.0/netstandard.dll": {}
         }
       },
-      "Microsoft.AspNetCore.OpenApi/7.0.10": {
+      "Microsoft.AspNetCore.OpenApi/7.0.11": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
@@ -366,7 +366,7 @@
           }
         }
       },
-      "postgrest-csharp/3.2.5": {
+      "postgrest-csharp/3.2.7": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
@@ -416,13 +416,13 @@
           }
         }
       },
-      "supabase-csharp/0.13.1": {
+      "supabase-csharp/0.13.3": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "functions-csharp": "1.3.1",
           "gotrue-csharp": "4.2.1",
-          "postgrest-csharp": "3.2.5",
+          "postgrest-csharp": "3.2.7",
           "realtime-csharp": "6.0.4",
           "supabase-core": "0.0.3",
           "supabase-storage-csharp": "1.4.0"
@@ -1033,10 +1033,10 @@
         "lib/netstandard2.0/netstandard.dll"
       ]
     },
-    "Microsoft.AspNetCore.OpenApi/7.0.10": {
-      "sha512": "p5LiYt1mFJdS70zyHoydahohko2pLIoXiXwANRZGYYyTXcYNQpNUOt+At+lUgGgRwta28sUKVhy2W/93j0qwhA==",
+    "Microsoft.AspNetCore.OpenApi/7.0.11": {
+      "sha512": "+3PUTx950QiUzw9CriQfCpfv11cJ0uMzQrDS3BwkEDlRduAh/2+1mxDy2S8wS1j3zyQpjbtQU0fFeWTU8j0Ljg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/7.0.10",
+      "path": "microsoft.aspnetcore.openapi/7.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1044,7 +1044,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net7.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
@@ -1369,10 +1369,10 @@
         "packageIcon.png"
       ]
     },
-    "postgrest-csharp/3.2.5": {
-      "sha512": "1MAigiCc8mfr1bx+1TVxe0WoKTdVN7mhWKj3BBDvvtHj8w8cJgqid/RFEwdN5OzTjkoAWO/Rsupc4VUeuovB8w==",
+    "postgrest-csharp/3.2.7": {
+      "sha512": "XIXwhU10ueOjf0qpJr4l2BU6Rgv9b4YmbIg61minnys9KSsse30ZjyDwSsS7pieCoHIXpWzcoOMvJVWeqydhpw==",
       "type": "package",
-      "path": "postgrest-csharp/3.2.5",
+      "path": "postgrest-csharp/3.2.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1380,7 +1380,7 @@
         "icon.png",
         "lib/netstandard2.0/Supabase.Postgrest.dll",
         "lib/netstandard2.0/Supabase.Postgrest.xml",
-        "postgrest-csharp.3.2.5.nupkg.sha512",
+        "postgrest-csharp.3.2.7.nupkg.sha512",
         "postgrest-csharp.nuspec"
       ]
     },
@@ -1414,10 +1414,10 @@
         "supabase-core.nuspec"
       ]
     },
-    "supabase-csharp/0.13.1": {
-      "sha512": "ParJd0gaPTJaFGey3Q21uXY7xXPkYnaXVwAGAdit8E6Eh/GuDME0sAtRgKxXXXOx2ZQByEYzUA43hwnvWawKBw==",
+    "supabase-csharp/0.13.3": {
+      "sha512": "vQ/PsGLYMwVQPphTE0hHSy+CbhHOpv4BZ/DiFPekhkGJ+dJ+Uzjm1Q6bw3XcxR1D0Quj1GWWFOrBQMuTy8PRCA==",
       "type": "package",
-      "path": "supabase-csharp/0.13.1",
+      "path": "supabase-csharp/0.13.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1425,7 +1425,7 @@
         "icon.png",
         "lib/netstandard2.0/Supabase.dll",
         "lib/netstandard2.0/Supabase.xml",
-        "supabase-csharp.0.13.1.nupkg.sha512",
+        "supabase-csharp.0.13.3.nupkg.sha512",
         "supabase-csharp.nuspec"
       ]
     },
@@ -2936,13 +2936,13 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Microsoft.AspNetCore.OpenApi >= 7.0.10",
+      "Microsoft.AspNetCore.OpenApi >= 7.0.11",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "functions-csharp >= 1.3.1",
-      "postgrest-csharp >= 3.2.5",
+      "postgrest-csharp >= 3.2.7",
       "realtime-csharp >= 6.0.4",
       "supabase-core >= 0.0.3",
-      "supabase-csharp >= 0.13.1",
+      "supabase-csharp >= 0.13.3",
       "supabase-storage-csharp >= 1.4.0"
     ]
   },
@@ -2972,6 +2972,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2992,7 +2993,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[7.0.10, )"
+            "version": "[7.0.11, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -3004,7 +3005,7 @@
           },
           "postgrest-csharp": {
             "target": "Package",
-            "version": "[3.2.5, )"
+            "version": "[3.2.7, )"
           },
           "realtime-csharp": {
             "target": "Package",
@@ -3016,7 +3017,7 @@
           },
           "supabase-csharp": {
             "target": "Package",
-            "version": "[0.13.1, )"
+            "version": "[0.13.3, )"
           },
           "supabase-storage-csharp": {
             "target": "Package",
@@ -3042,7 +3043,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
